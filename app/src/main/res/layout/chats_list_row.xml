@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="75dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/desc"
+        android:background="@drawable/shadow_bottom">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Sachin Rana"
+            android:id="@+id/username"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/message"
+            android:layout_below="@+id/username"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Thsi is a bigger  text just to test whether sameline works or not"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YESTERDAY"
+            android:id="@+id/timestamp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:layout_width="60dp"
+       android:layout_height="60dp"
+       android:id="@+id/profile_pic"
+       android:layout_centerVertical="true"
+       android:layout_marginLeft="20dp"/>
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="2dp"
+    app:cardCornerRadius="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Username"
+            android:textColor="@color/colorPrimary"
+            android:textSize="21sp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/red"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/current_about"
+            />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:hint="Enter New Username"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelTextColor="@color/colorPrimary"
+            android:id="@+id/change_username"
+            app:met_floatingLabelText="Username"
+            app:met_textColorHint="@color/colorPrimary"
+            app:met_floatingLabelAnimating="true"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/change_username"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+
+            android:weightSum="2">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Cancel"
+                android:id="@+id/cancel"
+                android:layout_marginRight="2dp"
+
+                android:background="@drawable/signup_btn_background"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Change"
+                android:id="@+id/commit"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/signup_btn_background"/>
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Whatsapp</string>
+    <string name="app_info_top">WhatsApp Messenger\nVersion 2.18.122</string>
+    <string name="app_info_below">\u00a9 2010-2018 Whatsapp Inc</string>
+    <string name="terms">WhatsApp Inc. (“WhatsApp,” “our,” “we,” or “us”) provides messaging, Internet calling, and other services to users around the world. Please read our Terms of Service so you understand what’s up with your use of WhatsApp. You agree to our Terms of Service (“Terms”) by installing, accessing, or using our apps, services, features, software, or website (together, “Services”).
+
+NO ACCESS TO EMERGENCY SERVICES: There are important differences between WhatsApp and your mobile and fixed-line telephone and SMS services. Our Services do not provide access to emergency services or emergency services providers, including the police, fire departments, or hospitals, or otherwise connect to public safety answering points. You should ensure you can contact your relevant emergency services providers through a mobile, fixed-line telephone, or other service.
+
+IF YOU ARE A WHATSAPP USER LOCATED IN THE UNITED STATES OR CANADA, OUR TERMS CONTAIN A BINDING ARBITRATION PROVISION, WHICH STATES THAT, EXCEPT IF YOU OPT OUT AND EXCEPT FOR CERTAIN TYPES OF DISPUTES, WHATSAPP AND YOU AGREE TO RESOLVE ALL DISPUTES THROUGH BINDING INDIVIDUAL ARBITRATION, WHICH MEANS THAT YOU WAIVE ANY RIGHT TO HAVE THOSE DISPUTES DECIDED BY A JUDGE OR JURY, AND THAT YOU WAIVE YOUR RIGHT TO PARTICIPATE IN CLASS ACTIONS, CLASS ARBITRATIONS, OR REPRESENTATIVE ACTIONS. PLEASE READ THE “SPECIAL ARBITRATION PROVISION FOR UNITED STATES OR CANADA USERS” SECTION BELOW TO LEARN MORE.</string>
+    <!--Drawer open close toggler-->
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <!--Navigation menu items-->
+    <string name="settings">Settings</string>
+    <string name="tracker">Tracker</string>
+    <string name="feedback">Feedback</string>
+    <string name="report_bug">Report Bug</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="faq">FAQ</string>
+    <string name="share_app">Share App</string>
+    <string name="about_developer">About Developer</string>
+    <string name="signout">Signout</string>
+    <!--Fragment Transaction tags-->
+    <string name="tags">fragment_transaction</string>
+    <!--About developer strings-->
+    <string name="address">ADDRESS :</string>
+    <string name="current_city">CURRENT CITY :</string>
+    <string name="contact_no">CONTACT NO :</string>
+    <string name="blog">BLOG :</string>
+    <string name="email">EMAIL :</string>
+    <string name="myaddress">51/5/2,Rabindra Sarani,Liluah</string>
+    <string name="mycurrent_city">Kolkata-Howrah</string>
+    <string name="my_contact_no">8981895883</string>
+    <string name="my_blog">thehackedway.blogspot.com</string>
+    <string name="my_email">sachin25041998@gmail.com</string>
+    <!--Database strings-->
+    <string name="dbname_users">users</string>
+    <string name="dbname_user_account_settings">user_account_settings</string>
+    <string name="dbname_last_seen">last_seen</string>
+    <string name="dbname_username">username</string>
+    <string name="dbname_about">about</string>
+    <string name="dbname_profile_pic">profile_photo_url</string>
+    <string name="dbname_about_date">about_date</string>
+    <string name="dbname_CHATS">CHATS</string>
+    <string name="dbname_MESSAGES">MESSAGES</string>
+    <string name="dbname_lastmsgtime">last_msg_time</string>
+    <string name="dbname_lastmsg">last_msg</string>
+    <string name="dbname_user_id">user_id</string>
+</resources>

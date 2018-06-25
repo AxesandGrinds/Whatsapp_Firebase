@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/settings"
+            android:title="@string/settings"
+            android:icon="@drawable/ic_settings"/>
+        <item
+            android:id="@+id/tracker"
+            android:title="@string/tracker"
+            android:icon="@drawable/ic_tracker"
+            />
+        <item android:title="Feedback and Rating"
+            >
+            <menu
+                >
+                <item android:id="@+id/feedback"
+                    android:title="@string/feedback"
+                    android:icon="@drawable/ic_feedback"/>
+                <item
+                    android:id="@+id/report_bug"
+                    android:title="@string/report_bug"
+                    android:icon="@drawable/ic_report_bug"/>
+                <item
+                    android:id="@+id/rate_us"
+                    android:title="@string/rate_us"
+                    android:icon="@drawable/ic_rateus"/>
+                <item
+                    android:id="@+id/faq"
+                    android:title="@string/faq"
+                    android:icon="@drawable/ic_faq"/>
+
+            </menu>
+        </item>
+        <item android:title="Others">
+            <menu>
+                <item
+                    android:id="@+id/share_app"
+                    android:title="@string/share_app"
+                    android:icon="@drawable/ic_share"/>
+                <item
+                    android:id="@+id/about_developer"
+                    android:icon="@drawable/ic_about_developer"
+                    android:title="@string/about_developer"/>
+                <item
+                    android:id="@+id/signout"
+                    android:icon="@drawable/ic_signout"
+                    android:title="@string/signout"/>
+            </menu>
+        </item>
+
+
+    </group>
+
+</menu>
